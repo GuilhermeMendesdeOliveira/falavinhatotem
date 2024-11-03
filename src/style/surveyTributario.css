@@ -1,0 +1,64 @@
+.tributario-list {
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+  padding-bottom: 30px;
+}
+
+.tributario-list__item {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: start;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 120px;
+  background-color: rgba(0, 93, 96, 0.1);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-family: inherit;
+  letter-spacing: 1.5px;
+}
+
+.tributario-list__title {
+  font-size: 1rem;
+  text-align: start;
+  line-height: 24px;
+}
+
+.tributario-list__title span {
+  font-size: 1.5rem;
+}
+
+.page-tributario_paginacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20;
+  
+}
+
+.page-tributario_paginacao button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-family: 'Gilroy-thin';
+  letter-spacing: 2px;
+}
+
+.page-tributario_paginacao_item {
+  display: flex;
+  gap: 20;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.page-tributario_paginacao_item > p {
+  border-radius: 5px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
